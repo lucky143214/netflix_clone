@@ -1,0 +1,97 @@
+.page1 {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    height: 750px;
+}
+
+.logo{
+    position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+/*    color: #fff;*/
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+}
+
+.language-selection {
+     position: absolute;
+  top: 8px;
+  right: 16px;
+
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#language-select {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+#sign-in-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f00;
+  color: #fff;
+  cursor: pointer;
+}
